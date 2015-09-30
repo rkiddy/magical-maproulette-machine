@@ -8,3 +8,4 @@ challenge:
   difficulty: 2 # required, 1 = easy, 2 = medium, 3 = hard
 overpass_query: 'node(40.5,-112.2,40.8,-111.7)[amenity~"shop|restaurant"][opening_hours!~"."]' # required. An overpass query QL stub (without the out statements)
 maproulette_server: 'http://dev.maproulette.org/' # required
+api_timeout: 60
